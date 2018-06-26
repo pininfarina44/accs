@@ -11,12 +11,30 @@
 			width: 80%;
 			margin: 0 auto;
 		}
+		.header{
+
+		}
+		.content{
+			
+		}
+		.tableAccounts{	
+			width: 24%;
+			float: left;		
+		}
+		.newAcc{
+			margin-top: 15px;
+			width: 310px;
+		}
+		.plan{
+			float: right;
+			position: relative;
+			width: 76%;
+		}
 		h2{
 			text-align: center;
 		}
 		table{
 			border-collapse: collapse;
-			width: 30%;
 			border: 1px solid #dddddd;
 		}
 		td, th{
@@ -36,13 +54,14 @@
 
 		label{
 			padding: 5px;
+			font-size: 1em;
 		}
 
 		input{
 			margin: 5px;
+			font-size: 1em;
 		}
 		fieldset{
-			width: 30%;
 			background-color: #efefef;
 		}
 		legend{
@@ -50,19 +69,24 @@
 			margin: 0 auto;
 			border-radius: 5px;
 			background-color: #efefef;
+<<<<<<< HEAD
 			padding: 5px;
 			position: relative;
 			margin-left: 65%;
+=======
+			padding: 8px;
+>>>>>>> 5e0a82456bd49a776c6fad0303875bcfa07f18cf
 		}
+
 
 	</style>
 </head>
 <body>
 	<div class="header">
 		<h2 id="hi">Accs Main Page</h2>
-	</div>
+	</div><!--header-->
 	<div class="content">
-		<div class="table">
+		<div class="tableAccounts">
 			<table id="account">
 				<tr>
 					<th>Account</th>
@@ -105,8 +129,44 @@
 			?>
 
 			</table>
-		</div>
-		<br>
+		</div><!--tableAccounts-->
+
+		<div class="plan">
+			<table id="tablePlan">
+				<tr>
+					<th>Period</th>
+					<th>Min Due</th>
+					<th>Planned</th>
+					<th>Paid</th>
+				</tr>
+				<tr>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+				</tr>
+								<tr>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+				</tr>
+								<tr>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+				</tr>
+								<tr>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+					<td>berkay</td>
+				</tr>
+
+			</table>
+		</div><!--plan-->
+
 		<div class="newAcc">
 			<fieldset>
 				<legend>Add new account</legend>
@@ -122,7 +182,7 @@
 					<input type="submit" name="add" value="Add">
 				</form>
 			</fieldset>
-		</div>
-	</div>
+		</div><!--newAcc-->
+	</div><!--content-->
 </body>
 </html>
