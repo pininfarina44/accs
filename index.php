@@ -51,6 +51,8 @@
 			border-radius: 5px;
 			background-color: #efefef;
 			padding: 5px;
+			position: relative;
+			margin-left: 65%;
 		}
 
 	</style>
