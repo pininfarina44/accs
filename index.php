@@ -5,85 +5,17 @@
 <head>
 	<title>Accs</title>
 	<script type="text/javascript" src="js/main.js"></script>
-	<style>
-		body{
-			font-family: Verdana, serif;
-			width: 80%;
-			margin: 0 auto;
-		}
-		.header{
-
-		}
-		.content{
-			
-		}
-		.tableAccounts{	
-			width: 24%;
-			float: left;		
-		}
-		.newAcc{
-			margin-top: 15px;
-			width: 310px;
-		}
-		.plan{
-			float: right;
-			position: relative;
-			width: 76%;
-		}
-		h2{
-			text-align: center;
-		}
-		table{
-			border-collapse: collapse;
-			border: 1px solid #dddddd;
-		}
-		td, th{
-			text-align: left;
-			padding: 8px ;
-			border-bottom: 1px solid #dddddd;
-		}
-		th{
-			border-bottom: 2px solid #000000;
-		}
-		tr:hover {
-			background-color: #efefef;
-		}
-		tr:nth-child(even){
-			background-color: #dddddd;
-		}
-
-		label{
-			padding: 5px;
-			font-size: 1em;
-		}
-
-		input{
-			margin: 5px;
-			font-size: 1em;
-		}
-		fieldset{
-			background-color: #efefef;
-		}
-		legend{
-			border: 1px solid #999999;
-			margin: 0 auto;
-			border-radius: 5px;
-			background-color: #efefef;
-<<<<<<< HEAD
-			padding: 5px;
-			position: relative;
-			margin-left: 65%;
-=======
-			padding: 8px;
->>>>>>> 5e0a82456bd49a776c6fad0303875bcfa07f18cf
-		}
-
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div class="header">
-		<h2 id="hi">Accs Main Page</h2>
+		<h2 id="hi">Accs Web App</h2>
+		<nav class="mainNav">
+			<ul id="navigationMenu">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="accounts.php">Accounts</a></li>
+			</ul>
+		</nav><!--mainNav-->
 	</div><!--header-->
 	<div class="content">
 		<div class="tableAccounts">
