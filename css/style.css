@@ -2,6 +2,7 @@ body{
 	font-family: Verdana, serif;
 	width: 80%;
 	margin: 0 auto;
+	background-color: #aaaaaa;
 }
 .header{
 	margin: 40px;
@@ -34,11 +35,9 @@ li:hover{
 	
 }
 .tableAccounts{	
-	float: left;
-	width:30%;	
+	background-color: #999999;
 }
 .newAcc{
-	width: 20%;
 
 }
 .plan{
@@ -55,11 +54,17 @@ table{
 }
 td, th{
 	text-align: left;
-	padding: 8px ;
+	padding: 8px 60px 8px 8px;
 	border-bottom: 1px solid #dddddd;
 }
 th{
 	border-bottom: 2px solid #000000;
+}
+.deleteRow{
+	background: url("../images/delete.png") center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
 }
 tr:hover {
 	background-color: #efefef;
