@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Accounts</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
+	<?php include("header.php"); ?>
 	<h2>Accounts</h2>
 	<div class="tableAccounts">
 			<table id="account">
@@ -52,5 +46,21 @@
 
 			</table>
 		</div><!--tableAccounts-->
-</body>
-</html>
+		<div class="newAcc">
+			<fieldset>
+				<legend>Add new account</legend>
+				<form id="newAccForm">
+					<label for="name">Account Name:</label><br>
+					<input type="text" name="name"><br>
+					<label for="balance">Balance:</label><br>
+					<input type="text" name="balance"><br>
+					<label for="limit">Limit:</label><br>
+					<input type="text" name="limit"><br>
+					<input type="radio" name="type" value="credit">Credit
+					<input type="radio" name="type" value="installment">Installment<br>
+					<input type="submit" name="add" value="Add">
+				</form>
+			</fieldset>
+		</div><!--newAcc-->
+
+		<?php include("footer.php"); ?>
