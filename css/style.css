@@ -6,6 +6,14 @@ body{
 }
 .header{
 	margin: 40px;
+	background-color: red;
+	min-width: 1112px;
+}
+#accountHeadline{
+	margin: 0 auto;
+	background-color: red;
+	min-width: 1112px;
+	margin-bottom: 20px;
 }
 .mainNav{
 }
@@ -34,10 +42,24 @@ li:hover{
 .content{
 	
 }
-.tableAccounts{	
-	background-color: #999999;
+
+.tableAccounts 
+{
+    text-align: center;
+    min-width: 1112px; 
+
+}
+
+.tableAccounts table 
+{
+    margin: 0 auto;
 }
 .newAcc{
+	width: 73%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	min-width: 1112px;
 
 }
 .plan{
@@ -54,7 +76,7 @@ table{
 }
 td, th{
 	text-align: left;
-	padding: 8px 60px 8px 8px;
+	padding: 8px 150px 8px 8px;
 	border-bottom: 1px solid #dddddd;
 }
 th{
@@ -64,7 +86,7 @@ th{
 	background: url("../images/delete.png") center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	text-indent: 1000px;
+	text-overflow: 
 
 }
 tr:hover {
@@ -83,17 +105,15 @@ input{
 	margin: 5px;
 	font-size: 1em;
 }
+#submitbutton{
+	float:right;
+	padding: 0px 30px;
+}
 fieldset{
 	background-color: #efefef;
 }
-legend{
-	width: 50%;
-	border: 1px solid #999999;
+.footer{
 	margin: 0 auto;
-	border-radius: 5px;
-	background-color: #efefef;
-	position: relative;
-	margin-left: 45%;
-	padding: 8px;
+	text-align: center;
 }
 

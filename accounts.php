@@ -1,5 +1,5 @@
 	<?php include("header.php"); ?>
-	<h2>Accounts</h2>
+	<h2 id="accountHeadline">Accounts</h2>
 	<div class="tableAccounts">
 			<table id="account">
 				<tr>
@@ -48,17 +48,16 @@
 		</div><!--tableAccounts-->
 		<div class="newAcc">
 			<fieldset>
-				<legend>Add new account</legend>
 				<form id="newAccForm">
-					<label for="name">Account Name:</label><br>
-					<input type="text" name="name"><br>
-					<label for="balance">Balance:</label><br>
-					<input type="text" name="balance"><br>
-					<label for="limit">Limit:</label><br>
-					<input type="text" name="limit"><br>
+					<label for="name">Account Name:</label>
+					<input type="text" name="name">
+					<label for="balance">Balance:</label>
+					<input type="text" name="balance">
+					<label for="limit">Limit:</label>
+					<input type="text" name="limit">
 					<input type="radio" name="type" value="credit">Credit
 					<input type="radio" name="type" value="installment">Installment<br>
-					<input type="submit" name="add" value="Add">
+					<input id="submitbutton" type="submit" name="add" value="Add">
 				</form>
 			</fieldset>
 		</div><!--newAcc-->
