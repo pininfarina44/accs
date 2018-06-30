@@ -133,8 +133,8 @@
 					<input type="text" name="balance">
 					<label for="limit">Limit:</label>
 					<input type="text" name="limit">
-					<input type="radio" name="type" value="credit" checked="checked">Credit
-					<input type="radio" name="type" value="installment">Installment<br>
+					<input id="creditRadio" type="radio" name="type" value="credit" checked="checked">Credit
+					<input id="installmentRadio" type="radio" name="type" value="installment">Installment<br>
 					<input id="accAddButton" type="submit" name="add" value="Add">
 				</form>
 			</fieldset>
